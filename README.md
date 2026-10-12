@@ -1,8 +1,68 @@
 # Sistem Pendanaan dan Pendapatan Event Organizer Perusahaan Citra
 
-Aplikasi CRUD sederhana untuk kategori, acara, pendanaan, dan pendapatan. Frontend terhubung langsung ke Supabase; tidak perlu menjalankan server Node.js untuk membuka aplikasi.
+Sistem Pendanaan dan Pendapatan Event Organizer Citra adalah aplikasi berbasis web untuk membantu pengelolaan data operasional Event Organizer, mulai dari pencatatan acara hingga pengelolaan pendanaan dan pendapatan. Aplikasi ini dirancang agar pengelolaan data kegiatan menjadi lebih terstruktur, praktis, dan terintegrasi.
 
+Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase digunakan sebagai layanan autentikasi dan basis data PostgreSQL.
 🌐 Demo Website: https://citramuslimah.github.io/Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Citra/
+
+# Identitas tugas
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Keterangan</th>
+      <th align="center">Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nama</td>
+      <td>Citra Muslimah Iffat</td>
+    </tr>
+    <tr>
+      <td>NIM</td>
+      <td>12030124120054</td>
+    </tr>
+    <tr>
+      <td>Mata Kuliah</td>
+      <td>Pengkodean dan Pemograman</td>
+    </tr>
+    <tr>
+      <td>Kelas</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>Dosen Pengampu</td>
+      <td>Dr. Totok Dewayanto, S.E., M.Si., Akt.</td>
+    </tr>
+  </tbody>
+</table>
+
+Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.
+
+Akun Demo
+
+Gunakan informasi berikut sebagai panduan untuk menyiapkan akses demonstrasi aplikasi Event Organizer.
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Username / Email</th>
+      <th align="center">Password</th>
+      <th align="center">Supabase Publishable Key</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>citramuslimah21</td>
+      <td>eventcitra123</td>
+      <td>sb_publishable_Tdp39woJz_Od39qgukwztA_zYdn4OAo</td>
+    </tr>
+  </tbody>
+</table>
+
+Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan konfigurasi aplikasi mengarah ke proyek Supabase yang benar. Jangan membagikan kata sandi akun pribadi atau secret key melalui repository publik. Gunakan akun khusus demonstrasi dengan hak akses yang sesuai.
+
 ## Struktur
 
 ```text
