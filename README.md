@@ -62,7 +62,7 @@ Gunakan informasi berikut sebagai panduan untuk menyiapkan akses demonstrasi apl
   </tbody>
 </table>
 
-Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan konfigurasi aplikasi mengarah ke proyek Supabase yang benar. Jangan membagikan kata sandi akun pribadi atau secret key melalui repository publik. Gunakan akun khusus demonstrasi dengan hak akses yang sesuai.
+**Catatan akses**: Pastikan akun demo telah terdaftar di Supabase Authentication dan konfigurasi aplikasi mengarah ke proyek Supabase yang benar. Jangan membagikan kata sandi akun pribadi atau secret key melalui repository publik. Gunakan akun khusus demonstrasi dengan hak akses yang sesuai.
 
 ## Fitur Aplikasi
 **1. Ikhtisar**: Menampilkan ringkasan total acara, kategori, pendanaan, pendapatan, agenda, dan arus dana.
@@ -74,6 +74,21 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 **4. Pendanaan**: Mencatat dana yang diterima dari sponsor, investor, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
 
 **5. Pendapatan**: Mencatat pendapatan dari penjualan tiket, produk, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
+
+## Struktur Folder
+
+```text
+Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Perusahaan-Citra/
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   ├── auth.css
+│   ├── config.js
+│   └── app.js
+└── backend/
+    ├── app.js
+    └── schema.sql
+```
 
 ## ERD
 
@@ -123,20 +138,6 @@ erDiagram
 ```
 
 Rincian data utama disimpan dalam tabel `events` yang terhubung ke `categories` sebagai pengelompokan kegiatan (`ON DELETE SET NULL`). Alur dana event dipisahkan menjadi dua tabel transaksi: `fundings` untuk mencatat pendanaan/sponsor masuk, dan `incomes` untuk mencatat pendapatan operasional event. Kebijakan integritas data dikunci menggunakan foreign key `ON DELETE CASCADE` pada seluruh transaksi keuangan event, serta dilindungi oleh Row Level Security (RLS).
-
-## Struktur
-
-```text
-frontend/
-  index.html
-  styles.css
-  auth.css
-  config.js
-  app.js
-backend/
-  app.js
-  schema.sql
-```
 
 ## Menjalankan Aplikasi
 
