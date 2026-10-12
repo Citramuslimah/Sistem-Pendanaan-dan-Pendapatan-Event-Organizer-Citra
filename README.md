@@ -75,6 +75,50 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 
 **5. Pendapatan**: Mencatat pendapatan dari penjualan tiket, produk, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
 
+## ERD
+erDiagram
+    CATEGORIES o|--o{ EVENTS : "mengategorikan"
+    EVENTS ||--o{ FUNDINGS : "memiliki"
+    EVENTS ||--o{ INCOMES : "menghasilkan"
+
+    CATEGORIES {
+        uuid id PK
+        text name UK
+        text description
+        timestamptz created_at
+    }
+
+    EVENTS {
+        uuid id PK
+        uuid category_id FK
+        text name
+        date event_date
+        text location
+        text status
+        numeric budget
+        timestamptz created_at
+    }
+
+    FUNDINGS {
+        uuid id PK
+        uuid event_id FK
+        text funder
+        numeric amount
+        date funded_on
+        text description
+        timestamptz created_at
+    }
+
+    INCOMES {
+        uuid id PK
+        uuid event_id FK
+        text source
+        numeric amount
+        date received_on
+        text description
+        timestamptz created_at
+    }
+
 ## Struktur
 
 ```text
