@@ -66,9 +66,13 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 
 ## Fitur Aplikasi
 **1. Ikhtisar**: Menampilkan ringkasan total acara, kategori, pendanaan, pendapatan, agenda, dan arus dana.
+
 **2. Acara**: Mengelola data acara, meliputi nama, kategori, tanggal, lokasi, status, dan anggaran. Pengguna dapat menambah, mengedit, dan menghapus acara.
+
 **3. Kategori**: Mengelola kategori acara, termasuk nama kategori, deskripsi, dan jumlah acara pada setiap kategori.
+
 **4. Pendanaan**: Mencatat dana yang diterima dari sponsor, investor, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
+
 **5. Pendapatan**: Mencatat pendapatan dari penjualan tiket, produk, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
 
 ## Struktur
