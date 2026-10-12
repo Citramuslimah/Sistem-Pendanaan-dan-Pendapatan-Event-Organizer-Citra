@@ -1,4 +1,4 @@
-# Sistem Pendanaan dan Pendapatan Event Organizer Perusahaan Citra
+# Sistem Pendanaan dan Pendapatan Event Organizer Citra
 
 Sistem Pendanaan dan Pendapatan Event Organizer Citra adalah aplikasi berbasis web untuk membantu pengelolaan data operasional Event Organizer, mulai dari pencatatan acara hingga pengelolaan pendanaan dan pendapatan. Aplikasi ini dirancang agar pengelolaan data kegiatan menjadi lebih terstruktur, praktis, dan terintegrasi.
 
