@@ -76,6 +76,7 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 **5. Pendapatan**: Mencatat pendapatan dari penjualan tiket, produk, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
 
 ## ERD
+
 erDiagram
     CATEGORIES o|--o{ EVENTS : "mengategorikan"
     EVENTS ||--o{ FUNDINGS : "memiliki"
