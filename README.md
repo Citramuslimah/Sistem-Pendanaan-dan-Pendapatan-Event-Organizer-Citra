@@ -1,7 +1,7 @@
 # Sistem Pendanaan dan Pendapatan Event Organizer Perusahaan Citra
 
 Aplikasi CRUD sederhana untuk kategori, acara, pendanaan, dan pendapatan. Frontend terhubung langsung ke Supabase; tidak perlu menjalankan server Node.js untuk membuka aplikasi.
-
+🌐 Demo Website: https://citramuslimah.github.io/Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Citra/
 ## Struktur
 
 ```text
