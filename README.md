@@ -77,7 +77,48 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 
 ## ERD
 
+erDiagram
+    categories {
+        uuid id PK
+        text name UK
+        text description
+        timestamptz created_at
+    }
 
+    events {
+        uuid id PK
+        uuid category_id FK
+        text name
+        date event_date
+        location text
+        text status
+        numeric budget
+        timestamptz created_at
+    }
+
+    fundings {
+        uuid id PK
+        uuid event_id FK
+        text funder
+        numeric amount
+        date funded_on
+        text description
+        timestamptz created_at
+    }
+
+    incomes {
+        uuid id PK
+        uuid event_id FK
+        text source
+        numeric amount
+        date received_on
+        text description
+        timestamptz created_at
+    }
+
+    categories ||--o{ events : "memiliki"
+    events ||--|{ fundings : "menerima"
+    events ||--|{ incomes : "menerima"
 
 ## Struktur
 
