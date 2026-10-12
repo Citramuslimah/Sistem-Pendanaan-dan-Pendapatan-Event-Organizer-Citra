@@ -3,6 +3,7 @@
 Sistem Pendanaan dan Pendapatan Event Organizer Citra adalah aplikasi berbasis web untuk membantu pengelolaan data operasional Event Organizer, mulai dari pencatatan acara hingga pengelolaan pendanaan dan pendapatan. Aplikasi ini dirancang agar pengelolaan data kegiatan menjadi lebih terstruktur, praktis, dan terintegrasi.
 
 Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase digunakan sebagai layanan autentikasi dan basis data PostgreSQL.
+
 🌐 Demo Website: https://citramuslimah.github.io/Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Citra/
 
 ## Identitas tugas
