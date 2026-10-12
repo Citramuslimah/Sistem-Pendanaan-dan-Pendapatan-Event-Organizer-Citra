@@ -54,7 +54,7 @@ Gunakan informasi berikut sebagai panduan untuk menyiapkan akses demonstrasi apl
   </thead>
   <tbody>
     <tr>
-      <td>citramuslimah21</td>
+      <td>citramuslimah21@gmail.com</td>
       <td>eventcitra123</td>
       <td>sb_publishable_Tdp39woJz_Od39qgukwztA_zYdn4OAo</td>
     </tr>
