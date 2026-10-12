@@ -5,7 +5,7 @@ Sistem Pendanaan dan Pendapatan Event Organizer Citra adalah aplikasi berbasis w
 Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase digunakan sebagai layanan autentikasi dan basis data PostgreSQL.
 🌐 Demo Website: https://citramuslimah.github.io/Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Citra/
 
-# Identitas tugas
+## Identitas tugas
 
 <table>
   <thead>
@@ -38,9 +38,9 @@ Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase 
   </tbody>
 </table>
 
-Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.
+# Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.
 
-Akun Demo
+## Akun Demo
 
 Gunakan informasi berikut sebagai panduan untuk menyiapkan akses demonstrasi aplikasi Event Organizer.
 
