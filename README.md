@@ -4,7 +4,7 @@ Sistem Pendanaan dan Pendapatan Event Organizer Citra adalah aplikasi berbasis w
 
 Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase digunakan sebagai layanan autentikasi dan basis data PostgreSQL.
 
-🌐 Demo Website: https://citramuslimah.github.io/Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Citra/
+**🌐 Demo Website**: https://citramuslimah.github.io/Sistem-Pendanaan-dan-Pendapatan-Event-Organizer-Citra/
 
 ## Identitas tugas
 
@@ -39,7 +39,7 @@ Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase 
   </tbody>
 </table>
 
-#### Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.
+**Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.**
 
 ## Akun Demo
 
@@ -65,16 +65,11 @@ Gunakan informasi berikut sebagai panduan untuk menyiapkan akses demonstrasi apl
 Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan konfigurasi aplikasi mengarah ke proyek Supabase yang benar. Jangan membagikan kata sandi akun pribadi atau secret key melalui repository publik. Gunakan akun khusus demonstrasi dengan hak akses yang sesuai.
 
 ## Fitur Aplikasi
-#### 1. Ikhtisar
-Menampilkan ringkasan total acara, kategori, pendanaan, pendapatan, agenda, dan arus dana.
-#### 2. Acara
-Mengelola data acara, meliputi nama, kategori, tanggal, lokasi, status, dan anggaran. Pengguna dapat menambah, mengedit, dan menghapus acara.
-#### 3. Kategori
-Mengelola kategori acara, termasuk nama kategori, deskripsi, dan jumlah acara pada setiap kategori.
-#### 4. Pendanaan
-Mencatat dana yang diterima dari sponsor, investor, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
-#### 5. Pendapatan
-Mencatat pendapatan dari penjualan tiket, produk, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
+**1. Ikhtisar**: Menampilkan ringkasan total acara, kategori, pendanaan, pendapatan, agenda, dan arus dana.
+**2. Acara**: Mengelola data acara, meliputi nama, kategori, tanggal, lokasi, status, dan anggaran. Pengguna dapat menambah, mengedit, dan menghapus acara.
+**3. Kategori**: Mengelola kategori acara, termasuk nama kategori, deskripsi, dan jumlah acara pada setiap kategori.
+**4. Pendanaan**: Mencatat dana yang diterima dari sponsor, investor, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
+**5. Pendapatan**: Mencatat pendapatan dari penjualan tiket, produk, atau sumber lainnya, beserta acara terkait, tanggal, nominal, dan keterangan.
 
 ## Struktur
 
