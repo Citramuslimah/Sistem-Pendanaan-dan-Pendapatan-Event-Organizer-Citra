@@ -77,6 +77,7 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 
 ## ERD
 
+```mermaid
 erDiagram
     categories {
         uuid id PK
@@ -90,7 +91,7 @@ erDiagram
         uuid category_id FK
         text name
         date event_date
-        location text
+        text location
         text status
         numeric budget
         timestamptz created_at
@@ -119,6 +120,7 @@ erDiagram
     categories ||--o{ events : "memiliki"
     events ||--|{ fundings : "menerima"
     events ||--|{ incomes : "menerima"
+```
 
 ## Struktur
 
