@@ -89,7 +89,7 @@ backend/
   schema.sql
 ```
 
-## Menjalankan
+## Menjalankan Aplikasi
 
 1. Buat project Supabase, buka **SQL Editor**, lalu jalankan isi `backend/schema.sql`. Policy memberi akses CRUD hanya kepada pengguna yang sudah login.
 2. Buka **Settings > API Keys** di Supabase dan salin **publishable key** (`sb_publishable_...`). Jangan gunakan secret key di frontend.
