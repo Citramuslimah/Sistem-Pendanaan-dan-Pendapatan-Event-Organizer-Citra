@@ -122,6 +122,8 @@ erDiagram
     events ||--|{ incomes : "menerima"
 ```
 
+Rincian data utama disimpan dalam tabel `events` yang terhubung ke `categories` sebagai pengelompokan kegiatan (`ON DELETE SET NULL`). Alur dana event dipisahkan menjadi dua tabel transaksi: `fundings` untuk mencatat pendanaan/sponsor masuk, dan `incomes` untuk mencatat pendapatan operasional event. Kebijakan integritas data dikunci menggunakan foreign key `ON DELETE CASCADE` pada seluruh transaksi keuangan event, serta dilindungi oleh Row Level Security (RLS).
+
 ## Struktur
 
 ```text
