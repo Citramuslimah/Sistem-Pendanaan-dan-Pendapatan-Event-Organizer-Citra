@@ -77,18 +77,7 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 
 ## ERD
 
-flowchart LR
-    C["<b>CATEGORIES</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>name : text (UNIQUE)<br/>description : text<br/>created_at : timestamptz"]
 
-    E["<b>EVENTS</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>🔗 category_id : uuid (FK)<br/>name : text<br/>event_date : date<br/>location : text<br/>status : text<br/>budget : numeric<br/>created_at : timestamptz"]
-
-    F["<b>FUNDINGS</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>🔗 event_id : uuid (FK)<br/>funder : text<br/>amount : numeric<br/>funded_on : date<br/>description : text<br/>created_at : timestamptz"]
-
-    I["<b>INCOMES</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>🔗 event_id : uuid (FK)<br/>source : text<br/>amount : numeric<br/>received_on : date<br/>description : text<br/>created_at : timestamptz"]
-
-    C o|--o{ E : "category_id"
-    E ||--o{ F : "event_id"
-    E ||--o{ I : "event_id"
 
 ## Struktur
 
