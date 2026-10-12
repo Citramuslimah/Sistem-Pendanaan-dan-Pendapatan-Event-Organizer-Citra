@@ -38,7 +38,7 @@ Frontend dikembangkan menggunakan HTML, CSS, dan JavaScript, sedangkan Supabase 
   </tbody>
 </table>
 
-### Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.
+##### Disusun untuk memenuhi Tugas Project UTS Pengkodean dan Pemograman.
 
 ## Akun Demo
 
