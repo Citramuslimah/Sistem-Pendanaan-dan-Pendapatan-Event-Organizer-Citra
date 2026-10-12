@@ -77,48 +77,18 @@ Catatan akses: Pastikan akun demo telah terdaftar di Supabase Authentication dan
 
 ## ERD
 
-erDiagram
-    CATEGORIES o|--o{ EVENTS : "mengategorikan"
-    EVENTS ||--o{ FUNDINGS : "memiliki"
-    EVENTS ||--o{ INCOMES : "menghasilkan"
+flowchart LR
+    C["<b>CATEGORIES</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>name : text (UNIQUE)<br/>description : text<br/>created_at : timestamptz"]
 
-    CATEGORIES {
-        uuid id PK
-        text name UK
-        text description
-        timestamptz created_at
-    }
+    E["<b>EVENTS</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>🔗 category_id : uuid (FK)<br/>name : text<br/>event_date : date<br/>location : text<br/>status : text<br/>budget : numeric<br/>created_at : timestamptz"]
 
-    EVENTS {
-        uuid id PK
-        uuid category_id FK
-        text name
-        date event_date
-        text location
-        text status
-        numeric budget
-        timestamptz created_at
-    }
+    F["<b>FUNDINGS</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>🔗 event_id : uuid (FK)<br/>funder : text<br/>amount : numeric<br/>funded_on : date<br/>description : text<br/>created_at : timestamptz"]
 
-    FUNDINGS {
-        uuid id PK
-        uuid event_id FK
-        text funder
-        numeric amount
-        date funded_on
-        text description
-        timestamptz created_at
-    }
+    I["<b>INCOMES</b><br/>──────────────<br/>🔑 id : uuid (PK)<br/>🔗 event_id : uuid (FK)<br/>source : text<br/>amount : numeric<br/>received_on : date<br/>description : text<br/>created_at : timestamptz"]
 
-    INCOMES {
-        uuid id PK
-        uuid event_id FK
-        text source
-        numeric amount
-        date received_on
-        text description
-        timestamptz created_at
-    }
+    C o|--o{ E : "category_id"
+    E ||--o{ F : "event_id"
+    E ||--o{ I : "event_id"
 
 ## Struktur
 
